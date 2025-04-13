@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard de Temperatura e Umidade</title>
+    <!-- Chart.js via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 30px;
+        }
+
+        canvas {
+            max-width: 600px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Gráfico de Linhas</h2>
+    <canvas id="graficoLinha"></canvas>
+
+    <h2>Gráfico de Barras</h2>
+    <canvas id="graficoBarra"></canvas>
+
+    <!-- Importando nosso JS -->
+    <script src="dashboard.js"></script>
+
+</body>
+
+</html>
